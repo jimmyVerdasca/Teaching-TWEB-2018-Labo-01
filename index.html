@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>TWEB Labo1</title>
+			<!-- 3 façons d'ajouter du style via css: 
+
+				1) mettre l'attribut style sur un élément html 
+				<h1 style="color:blue;">This is a Blue Heading</h1>
+				effet sur un élément
+
+				2) utiliser un lien vers un fichier css extern 
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+			effet sur tout le site web
+
+			3) mettre une balise style dans la balise head qui contiendra le css
+			<style>
+			body {background-color: powderblue;}
+			h1   {color: blue;}
+			p    {color: red;}
+			</style>
+			effet sur la page uniquement-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+
+		<div class="main">
+
+			<div class="profile">
+				<p>
+					<img src="image/dog.jpg" alt="user" id="dog-picture" />
+					<button class="follow-button" onclick="follow()">follow</button>
+				</p>
+			</div>
+
+			<div class="followers-informations">
+				<div class="headers">
+					<h3 class="texts">doggette</h3><br/>
+					<h5 class="texts">doggette of dignity</h5><br/>
+					<h9 class="texts">I'm a doggette of big heart, I love all kind of dog. I'm a very inclusive doggette and like to share parts of life time</h9><br/>
+				</div>
+				<div class="flex">
+				    <div>
+						<strong>0</strong><br/>
+						<span class="details">posts</span>
+				    </div>
+				    <div>
+						<strong class="increment-field">0</strong><br/>
+						<span class="details">followers</span>
+				    </div>
+				    <div>
+						<strong>0</strong><br/>
+						<span class="details">following</span>
+				    </div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/increment.js"></script> 
+
+	</body>
+
+</html>

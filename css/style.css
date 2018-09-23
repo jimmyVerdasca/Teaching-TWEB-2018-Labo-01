@@ -1,0 +1,85 @@
+body {
+  background-color: #eee;
+}
+
+.main {
+  background-color: white;
+
+  width: 400px;
+  height: 160px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  padding: 20px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+#dog-picture {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  height: 100px;
+  width: 100px;
+
+  border-radius: 8%;
+}
+
+.followers-informations {
+  position: absolute;
+  bottom: 0;
+  top: 20px;
+  left: 130px;
+}
+
+.headers {
+  position: absolute;
+  height: calc(100% / 2);
+  top: 0px;
+  width: 300px;
+}
+
+.details {
+  color: #888;
+}
+
+.texts {
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.flex {
+  position: absolute;
+  top: calc(100% / 2 + 30px);
+  display: flex;
+}
+
+.flex div {
+  padding: 0px 20px;
+}
+
+.follow-button {
+  background-color: #afffac;
+  color: white;
+
+  font-weight: 600;
+  font-size: 30px;
+  cursor: pointer;
+
+  border: 0;
+  border-radius: 8%;
+
+  position: absolute;
+  left: 20px;
+  top: 130px;
+  height: 50px;
+  width: 100px;
+
+}
